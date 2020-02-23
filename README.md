@@ -1,4 +1,4 @@
-##"RNA-seq:Differential expression analysis"
+## RNA-seq:Differential expression analysis
 
 "RNA-seq:Differential expression analysis" is a continuation of another R tutorial called "RNA-seq: Data normalization and clustering" (uploaded on gitHub https://github.com/malina-dva/RNA-seq-Data-normalization-and-clustering?fbclid=IwAR0op-RofdeX91wzPSPeW2OSUKYXWv59oaJ7Btz__Noibrnzn6RBYRdIw-E)
 
