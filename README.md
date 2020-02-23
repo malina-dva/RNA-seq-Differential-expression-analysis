@@ -7,8 +7,7 @@ You will have to repeat the first four sections from the "RNA-seq: Data normaliz
 
 If you are new to R and Rstudio, please have a look at the video for how to set up your working directory and install packages.
 
-https://www.youtube.com/watch?v=kR_iHVau8GI&feature=youtu.be
-
+[![Getting started with RNA-seq](http://img.youtube.com/vi/kR_iHVau8GI/0.jpg)](https://www.youtube.com/watch?v=kR_iHVau8GI "Getting started with RNA-seq" )
 
 To maintain the flow of the current tutorial I have included the commands you need from the "RNA-seq: Data normalization and clustering" down below. 
 
@@ -98,7 +97,7 @@ The data is from cardiac myocytes (CMs) cells isolated from mice - embryonic day
 In order to perform the analysis on this data set you will have to download the file with the raw counts (the input file) named Raw_counts_input.txt from github.
 To do so go to:
 
-https://github.com/malina-dva/RNA-seq-Data-normalization-and-clustering
+https://github.com/malina-dva/RNA-seq-Differential-expression-analysis
 
 Click on Raw_counts_input.txt file
 
@@ -221,7 +220,7 @@ Again download this file from github and place it in your working directory.
 
 To do so go 
 
-https://github.com/malina-dva/RNA-seq-Data-normalization-and-clustering
+https://github.com/malina-dva/RNA-seq-Differential-expression-analysis
 
 Click on meta_data.txt file
 
@@ -625,7 +624,7 @@ ggplot(resOrdFilt.data.frame, aes(x=log2FoldChange)) +
 ## Warning: Removed 26 rows containing non-finite values (stat_bin).
 ```
 
-![](Differential_expression_files/figure-html/unnamed-chunk-27-1.png)<!-- -->
+![](https://github.com/malina-dva/RNA-seq-Differential-expression-analysis/blob/master/unnamed-chunk-27-1.png)<!-- -->
 
 
 Based on the histogram it is obvious that most of FC are between 0.5 and 1. Just for demonstration we can set a threshold for the FC to -0.5 and +0.5 for down and up regulated genes respectively to see how many DEG will remain.
@@ -660,7 +659,7 @@ ggplot(resOrdFiltLFC, aes(x=log2FoldChange)) +
 ## Warning: Removed 26 rows containing non-finite values (stat_bin).
 ```
 
-![](Differential_expression_files/figure-html/unnamed-chunk-30-1.png)<!-- -->
+![](https://github.com/malina-dva/RNA-seq-Differential-expression-analysis/blob/master/unnamed-chunk-30-1.png)<!-- -->
 
 Let's write the results with the filtered FCs.
 
@@ -761,7 +760,7 @@ EnhancedVolcano(resOrdFilt.data.frame,
          pCutoff = 0.05)
 ```
 
-![](Differential_expression_files/figure-html/unnamed-chunk-37-1.png)<!-- -->
+![](https://github.com/malina-dva/RNA-seq-Differential-expression-analysis/blob/master/unnamed-chunk-37-1.png)<!-- -->
 
 You see that all of our genes from resOrdFilt.data.frame have a difference in FC greater than 0.3 and the padj value is < 0.05, which is what we would expect anyway!
 
@@ -913,7 +912,7 @@ dotplot(GO_up, x="count", showCategory=8, color = 'p.adjust', title  = "DEG_UP P
 ## wrong orderBy parameter; set to default `orderBy = "x"`
 ```
 
-![](Differential_expression_files/figure-html/unnamed-chunk-42-1.png)<!-- -->
+![](https://github.com/malina-dva/RNA-seq-Differential-expression-analysis/blob/master/unnamed-chunk-41-1.png)<!-- -->
         
         
 Let's now check the GO of down-regulated genes        
@@ -938,7 +937,7 @@ dotplot(GO_down, x="count", showCategory=8, color = 'p.adjust', title  = "DEG_DO
 ## wrong orderBy parameter; set to default `orderBy = "x"`
 ```
 
-![](Differential_expression_files/figure-html/unnamed-chunk-44-1.png)<!-- -->
+![](https://github.com/malina-dva/RNA-seq-Differential-expression-analysis/blob/master/unnamed-chunk-44-1.png)<!-- -->
 
 Save tables for the GO results (up and Down DEG respectively)
 
