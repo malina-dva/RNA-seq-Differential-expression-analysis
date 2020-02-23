@@ -764,7 +764,7 @@ EnhancedVolcano(resOrdFilt.data.frame,
 
 You see that all of our genes from resOrdFilt.data.frame have a difference in FC greater than 0.3 and the padj value is < 0.05, which is what we would expect anyway!
 
-###6. GO enrichment analysis and visualization
+### 6. GO enrichment analysis and visualization
 
 Let's check what biological processes the Up and Down genes are involved in by performing GO enrichment analysis. 
 Of course, will have to load the packages that will help us find this out.
