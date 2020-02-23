@@ -7,7 +7,7 @@ You will have to repeat the first four sections from the "RNA-seq: Data normaliz
 
 If you are new to R and Rstudio, please have a look at the video for how to set up your working directory and install packages.
 
-https://www.youtube.com/watch?v=kR_iHVau8GI&feature=youtu.be
+[![Getting started with RNA-seq](http://img.youtube.com/vi/kR_iHVau8GI/0.jpg)](https://www.youtube.com/watch?v=kR_iHVau8GI "Getting started with RNA-seq" )
 
 
 To maintain the flow of the current tutorial I have included the commands you need from the "RNA-seq: Data normalization and clustering" down below. 
