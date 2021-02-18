@@ -629,7 +629,7 @@ ggplot(resOrdFilt.data.frame, aes(x=log2FoldChange)) +
 
 Based on the histogram it is obvious that most of FC are between 0.5 and 1. Just for demonstration we can set a threshold for the FC to -0.5 and +0.5 for down and up regulated genes respectively to see how many DEG will remain.
 
-To filter for log2FoldChange threshold we use "subset". We apply subset on the resOrdFilt.data.frame. The **conditions** we want to sunset on are:  log2FoldChange column from resOrdFilt.data.frame is either >0.5 or <0.5. To achieve that, we use "|" argument in our command which means **or**. 
+To filter for log2FoldChange threshold we use "subset". We apply subset on the resOrdFilt.data.frame. The **conditions** we want to subset on are:  log2FoldChange column from resOrdFilt.data.frame is either >0.5 or <0.5. To achieve that, we use "|" argument in our command which means **or**. 
 
 
 ```r
